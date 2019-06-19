@@ -1,0 +1,39 @@
+nav, footer {
+  background-color: grey;
+  height: 30px;
+}
+
+.a{
+  display: flex;
+  height: 50%;
+  width: 75%;
+  background-color: #F13131;
+}
+
+.b {
+  display: flex;
+  height: 50%;
+  width: 75%;
+  background-color: #F19731;
+}
+
+.c {
+  height: 100%;
+  width: 25%;
+  background-color: #F1EE31;
+}
+
+.ab {
+  align-items: flex-start;
+  flex-direction: column
+}
+
+.c1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
